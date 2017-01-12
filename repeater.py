@@ -29,4 +29,15 @@ def run_tests():
 
 def is_repeated(nums):
 
+    Char_0 = nums.count(nums[0])
+
+    if len(nums) == 1:
+        print("Unique")
+
+    elif Char_0 >= 2:
+        print("Repeated")
+
+    elif Char_0 == 1:
+        print("Unique")
+
 
